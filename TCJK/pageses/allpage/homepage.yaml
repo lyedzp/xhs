@@ -1,0 +1,11 @@
+homePage:
+ desc1: 首页
+ locators:
+  -
+    name: 首页协议弹框
+    by1: text
+    value1 : 同意
+  -
+    name: 发现
+    by2: text
+    value2: 发现

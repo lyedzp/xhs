@@ -1,0 +1,51 @@
+LoginPage:
+ desc: 登录页面元素抓取
+ locators:
+  -
+    name: 本机号码一键登录
+    by: text
+    value : 本机号码可一键登录
+  -
+    name: 其他号码登录
+    by: text
+    value: 其他号码登录
+  -
+    name: 微信
+    by: text
+    value: 微信
+  -
+    name: QQ
+    by: text
+    value: QQ
+  -
+    name: 微博
+    by: text
+    value: 微博
+
+  -
+    name: 手机密码登录
+    by: text
+    value: 手机密码登录
+
+  -
+    name: 请输入手机号码
+    by: text
+    value: 请输入手机号码
+
+  -
+    name: 请输入密码
+    by: text
+    value: 请输入密码
+
+  -
+    name: 同意协议并登录
+    by: text
+    value: 同意协议并登录
+
+  - name: 登录遇到问题
+    by: text
+    value: 登录遇到问题？
+
+
+
+

@@ -1,0 +1,18 @@
+SetPage:
+ desc: 设置页面元素抓取
+ locators:
+ - name: 我
+   by: id
+   value: com.xingin.xhs:id/db4
+
+ - name: 设置按钮
+   by: text
+   value: 设置按钮
+
+ - name: 登出账户
+   by: text
+   value: 登出账户
+
+ - name: 确定
+   by: text
+   value: 确定

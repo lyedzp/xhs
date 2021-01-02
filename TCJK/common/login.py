@@ -1,4 +1,5 @@
-
+import sys,os
+sys.path.insert(0,os.path.dirname(os.getcwd()))
 from ..common.fengzhuangdingwei import Base
 from ..pageses.allpage.pages import LoginPage
 from ..common.loginout import loginOut

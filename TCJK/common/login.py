@@ -1,7 +1,7 @@
 import sys,os
 import sys,os
-# mypath =os.path.dirname(os.path.dirname(os.path.abspath(__file__))) #写入项目路径
-# sys.path.append(mypath)
+mypath =os.path.dirname(os.path.dirname(os.path.abspath(__file__))) #写入项目路径
+sys.path.append(mypath)
 from TCJK.common.fengzhuangdingwei import Base
 from TCJK.common.loginout import loginOut
 from TCJK.pageses.allpage.pages import LoginPage

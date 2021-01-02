@@ -1,6 +1,8 @@
 import sys,os
-sys.path.insert(0,os.path.dirname(os.getcwd()))
-from .fengzhuangdingwei import Base
+import sys,os
+mypath =os.path.dirname(os.path.dirname(os.path.abspath(__file__))) #写入项目路径
+sys.path.append(mypath)
+from ..common.fengzhuangdingwei import Base
 from .loginout import loginOut
 from ..pageses.allpage.pages import LoginPage
 from appium import webdriver

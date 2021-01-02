@@ -1,8 +1,8 @@
 import sys,os
 sys.path.insert(0,os.path.dirname(os.getcwd()))
-from ..common.fengzhuangdingwei import Base
+from .fengzhuangdingwei import Base
+from .loginout import loginOut
 from ..pageses.allpage.pages import LoginPage
-from ..common.loginout import loginOut
 from appium import webdriver
 from ..pageses.allpage.pages import SetPage
 import openpyxl

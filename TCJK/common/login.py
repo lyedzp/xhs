@@ -1,8 +1,9 @@
-from common.fengzhuangdingwei import Base
-from pageses.allpage.pages import LoginPage
-from common.loginout import loginOut
+
+from ..common.fengzhuangdingwei import Base
+from ..pageses.allpage.pages import LoginPage
+from ..common.loginout import loginOut
 from appium import webdriver
-from pageses.allpage.pages import SetPage
+from ..pageses.allpage.pages import SetPage
 import openpyxl
 des = {
         "platformName": "Android",  # 手机是android还是ios
@@ -16,7 +17,7 @@ class Login():
     def login1(self):
         driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", des)
         # openpyxl读取xlsx文件
-        book1 = openpyxl.load_workbook('D://TCJK//data//logindata.xlsx')
+        book1 = openpyxl.load_workbook('D://redBook//TCJK//data//logindata.xlsx')
         sh1 = book1.get_sheet_by_name('Sheet1')
         #获取最带行数
         max_rows = sh1.max_row
@@ -53,7 +54,7 @@ class Login():
                 sh1.cell(row, max_cells,'PASS')
 
             finally:
-                book1.save('D://TCJK//data//logindata.xlsx')
+                book1.save('D://redBook//TCJK//data//logindata.xlsx')
                 bae.click(SetPage.我)
                 bae.click(SetPage.设置按钮)
                 bae.click(SetPage.登出账户)

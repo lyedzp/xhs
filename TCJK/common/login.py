@@ -1,11 +1,11 @@
 import sys,os
 import sys,os
 sys.path.append("D:\redBook\TCJK")
-from TCJK.common.fengzhuangdingwei import Base
-from TCJK.common.loginout import loginOut
-from TCJK.pageses.allpage.pages import LoginPage
+from ..common.fengzhuangdingwei import Base
+from ..common.loginout import loginOut
+from ..pageses.allpage.pages import LoginPage
 from appium import webdriver
-from TCJK.pageses.allpage.pages import SetPage
+from ..pageses.allpage.pages import SetPage
 import openpyxl
 des = {
         "platformName": "Android",  # 手机是android还是ios

@@ -14,7 +14,7 @@ des = {
         "platformVersion": "10",  # android版本号
         "appPackage": "com.xingin.xhs",  # app包名
         "appActivity": "com.xingin.xhs.activity.SplashActivity",  # apk第一个启动页
-        "noReset": True  # 不重置手机app
+        "noReset": True  # 不重置手机ap
     }
 class Login():
     def login1(self):

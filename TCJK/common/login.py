@@ -1,6 +1,5 @@
 import sys,os
-import sys,os
-sys.path.append("D:\\redBook\\TCJK")
+sys.path.append("D:\\redBook\\TCJK\\common")
 from ..common.fengzhuangdingwei import Base
 from ..common.loginout import loginOut
 from ..pageses.allpage.pages import LoginPage

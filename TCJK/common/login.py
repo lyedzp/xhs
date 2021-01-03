@@ -1,5 +1,5 @@
 import sys,os
-sys.path.append("D:\\redBook\\TCJK")
+sys.path.append("D:\\redBook")
 from TCJK.common.fengzhuangdingwei import Base
 from TCJK.pageses.allpage.pages import LoginPage
 from appium import webdriver
